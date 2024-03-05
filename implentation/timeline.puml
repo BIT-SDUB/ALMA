@@ -1,0 +1,62 @@
+@startgantt
+Project starts 2024-03-01
+printscale weekly
+
+TITLE ALMA implementation @ SDUB
+header Page Header
+footer 2024-03-05/ErBa
+
+' //www.plantuml.com/plantuml/png/bPJ1ZjCm48RlynHpoodQfD0jxA7QicXNAgn0Abe9LHpSPDgQkdPaExloZMVXqNWI7AUbZWa7RidCD_zu9dzyQopJTiUajV1Pg-zKMGmXWvDYyZelfdbHGgEvjAPYWl25w20Sm7hbZirUIOU2FzEtlukGoHf9rgTOESdB6K3swyTF_2GtYkcQonq-CXV0PIifWB2-PF-bAfZnmUi2Q-OCP9ScnNN-ge0Cra-igfZbIYOIi-HW8HPgbgrmo0rMGXcg8SAjYi08WQoVvWEl3hdQRc-GcFOYYtRN6diQvfnCpl5cP46bbpzhVY6l81Ih-x8RFF8wNr5ZwRWXVTB-0oNYR_Do6kt9l_HxYWkILD_rhhNgcVIvP-dfzrJ5BGV4i6qvyJEbn7YV1nLCuplCx3vjuPEze_QiQKWExBDUV7nS30t7B2PMp4otLHY18wd1yhsnV6mAMLIIcYny5SsauPsjEbEisgPHtPushbD2jSKbaotJBcZ2UXIFvWgD_LSl8VkVmG9xaGjuh3O-6cJp-Hplb53QG28SJDrbg4OkyRwjzeQpgtkkwPts1kvRZh8FcaX-9I7KorLuZl_V56wuF40M6JS5N11AJ3GEHRzMahTKxQL_tJc43ElMM1_VzMTxOlsraDJuD7C0joJhS1N-1W00
+
+' start up
+[Symphony live] starts 2024-03-01 and ends 2024-12-17
+[BIT analytics] starts 2024-03-01 and ends 2024-05-01 and is 5% complete
+
+
+'>>> Exlibris
+'• Onboarding May and June 2024
+[Onboarding] starts 2024-05-01 and ends 2024-06-30
+'
+'[Vaccation] starts 2024-07-01 and ends 2024-07-30
+'July is closed
+2024-07-01 to 2024-07-30 is closed
+'
+'• Kick-off: early August 2024
+[Kick-off] starts 2024-08-01 and ends 2024-11-30
+'
+'• Test load start: mid-September 2024
+[Test load] starts 2024-09-15 and lasts 15 days
+'[Test load] lasts 15 days
+'
+'• Cutover start: 1st December 2024
+[Cutover start] starts 2024-12-01
+[Cutover start] lasts 15 days
+'
+'• Go live: 17th December 2024
+[Go live] happens 2024-12-17
+[ALMA live] starts at [Symphony live]'s end
+
+[ALMA live] starts 2024-12-17 and ends 2025-02-15
+'[ALMA live] lasts 60 days
+'• Transition to Support: by end of January 2025
+[Transition to Support] happens 2025-01-31
+'[ALMA live] starts at [Symphony live]'s end
+[ALMA Support] starts 2025-01-31 and ends 2025-02-15
+[ALMA Support] starts at [Transition to Support]'s end
+'
+'>>> Colors
+  [Symphony live] is colored in Fuchsia/FireBrick
+  [ALMA live] is colored in GreenYellow/Green
+  [ALMA Support] is colored in Olive
+  
+  [Onboarding] is colored in pink
+  '
+  [Test load] is colored in yellow
+  [Cutover start] is colored in yellow
+  [Kick-off] is colored in technology 
+  ' dusted green
+  [Vacation] is colored in gray
+  [BIT analytics] is colored in SkyBlue
+'<<< Colors
+
+@endgantt
